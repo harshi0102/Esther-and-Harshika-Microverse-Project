@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
@@ -21,6 +21,98 @@
     - The freeCodeCamp Team
 
     -->
-    <script  src="js/index.js"></script>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+
+    <p id="description">
+      Thank you for taking the time to help us improve the platform
+    </p>
+    <form action="" id="survey-form">
+      <label for="" id="name-label"></label>
+      <input type="text" id="name" required placeholder="name" />
+      <br />
+      <label for="" id="email-label"></label>
+      <input type="email" id="email" required placeholder="email" />
+      <br />
+      <label for="" id="number-label"></label>
+      <input type="number" id="number" min="6" max="20" placeholder="number" />
+      <br />
+      <select name="" id="dropdown">
+        Select an option
+        <option value="">Student</option>
+        <option value="">FullTime Job</option>
+        <option value="">FullTime Leaner</option>
+      </select>
+      <label for="">
+        <input
+          type="radio"
+          id="definitelyChoice"
+          name="rateChoice"
+          value="1"
+          checked
+        />
+        Definitely
+      </label>
+      <label for="">
+        <input type="radio" id="maybeChoice" name="rateChoice" value="2" />
+        Maybe
+      </label>
+      <label for="">
+        <input type="radio" id="notSureChoice" name="rateChoice" value="3" />
+        Not Sure
+      </label>
+      <br />
+      <label for="front-end-projects">
+        <input
+          type="checkbox"
+          name="fcc-interest"
+          id="front-end-projects"
+          value="front-end"
+        />
+        Front-end Projects
+      </label>
+      <label for="back-end-projects">
+        <input
+          type="checkbox"
+          name="fcc-interest"
+          id="back-end-projects"
+          value="back-end"
+        />
+        Back-end Projects
+      </label>
+      Harshika10:04 PM
+      <label for="data-visualization">
+        <input
+          type="checkbox"
+          name="fcc-interest"
+          id="data-visualization"
+          value="data-Visualization"
+        />
+        Data Visualization
+      </label>
+      <label for="challenges">
+        <input
+          type="checkbox"
+          name="fcc-interest"
+          id="challenges"
+          value="challenges"
+        />
+        Challenges
+      </label>
+      <label for="open-source">
+        <input
+          type="checkbox"
+          name="fcc-interest"
+          id="open-source"
+          value="open-source"
+        />
+        Open Source Community
+      </label>
+
+      <br />
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <br />
+      <button id="submit">Submit</button>
+    </form>
+    <script src="js/index.js"></script>
   </body>
 </html>
